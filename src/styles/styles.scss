@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  //Responsive breakpoints
+  $media-sm: 37.5em;
+  $media-md: 53em;
+  $media-lg: 64em;
+  
+  :root {
+    //colors
+    --color-white: #fff;
+    --color-gray-500: #7e7e7e;
+    --color-gray-750: #b6b6b6;
+    --color-black: #333;
+    --color-green-500: #2ecc71;
+    --color-red-500: #c0392b;
+    --color-red-750: #e24433;
+    --color-blue-500: #2980b9;
+    --color-blue-750: #33a4f0;
+  
+    //borders
+    --border-rounded: 0.5rem;
+  }
+  
+  @import "./components/ChatApp.scss";
+  @import "./components/Input.scss";
+  @import "./components/Messages.scss";
+
+  

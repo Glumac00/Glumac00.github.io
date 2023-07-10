@@ -1,0 +1,31 @@
+.Input {
+    margin-top: 20px;
+    &__button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      border-radius: 2rem;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+    &__form {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  
+  .Input-text {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  
